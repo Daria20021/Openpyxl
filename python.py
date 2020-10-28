@@ -41,8 +41,7 @@ ws2.append(["имя11", "Яхта"])
 ws2.append(["имя12", "Бухта"])
 
 for i in range(2, 14):
-    if ws.cell(row=i, column=2).value == "+" and ws.cell(row=i, column=3).value == "оба" and ws.cell(row=i,
-                                                                                                     column=4).value == "20":
+    if ws.cell(row=i, column=2).value == "+" and ws.cell(row=i, column=3).value == "оба" and ws.cell(row=i, column=4).value == "20":
         ws2['С' + str(i)] = "+"
 else:
     ws2['С' + str(i)] = "-"
